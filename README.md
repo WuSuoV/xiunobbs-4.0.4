@@ -1,27 +1,24 @@
-## 【前言】
-https://www.oschina.net/news/116992/xiunobbs-closed  
-https://www.ithome.com/0/496/406.htm  
-https://tech.sina.com.cn/digi/2020-07-07/doc-iirczymm0954519.shtml  
-https://www.chinaz.com/2020/0707/1154797.shtml  
-https://www.cnbeta.com/articles/tech/1000027.htm  
+## 引言
+
+1. [https://www.oschina.net/news/116992/xiunobbs-closed](https://www.oschina.net/news/116992/xiunobbs-closed  )  
+2. [https://www.ithome.com/0/496/406.htm](https://www.ithome.com/0/496/406.htm)  
+3. [https://tech.sina.com.cn/digi/2020-07-07/doc-iirczymm0954519.shtml](https://tech.sina.com.cn/digi/2020-07-07/doc-iirczymm0954519.shtml)  
+4. [https://www.chinaz.com/2020/0707/1154797.shtml](https://www.chinaz.com/2020/0707/1154797.shtml)  
+
 **国内知名开源 PHP 论坛“修罗 BBS”关闭，项目停止，作者出走开源**。2020-07-07中文各主流技术媒体版块都做了报道。
 
 一石激起千层浪，修罗是我喜爱的产品，看到这个消息我第一时间去官方网站看了一下，果然关闭了。老黄这次走的太彻底，网站关闭，代码仓移除，连在看云上发布的两本xiunobbs开发电子书也都一并移除了。
 
- 应该有不少像我一样，有项目在使用xiuno做二次开发，没有备份，又或者没有同步更新最新的安全补丁。看到这个消息第一反应是找仓库做备份，gitee/github上面好多fork都是两年前的，本仓是我在github上找的，最新提交记录是2019-12-27，xiuno官方最后一次提交记录是2020-05-08，这中间有不少提交记录，可惜都不到了。很幸运网上有人分享了截止到2020-05-08提交的源码包。我把这个源码也一起合并到本仓库了。
+ 应该有不少像我一样，有项目在使用xiuno做二次开发，没有备份，又或者没有同步更新最新的安全补丁。
 
-如果有xiuno开发大神要主导开发交流群，请记得拉我进个群。非常感谢！  
-GUO  
-QQ：349384061  
-2020-07-08
+看到这个消息第一反应是找仓库做备份，gitee/github上面好多fork都是两年前的，本仓是我在github上找的，最新提交记录是2019-12-27，xiuno官方最后一次提交记录是2020-05-08，这中间有不少提交记录，可惜都不到了。
 
-**最后对xiunobbs的创始人老黄，表示衷心的感谢！** 我从你的项目里面学到了不少知识。
+很幸运网上有人分享了截止到 2020-05-08 提交的源码包。把这个源码也一起合并到本仓库了。
 
-`下面是修罗论坛官方的原始内容`  
-
---- 
+## 原版内容
 
 ### 【Xiuno BBS 4.0 是什么？】
+
 Xiuno BBS 4.0 是一款轻论坛产品，前端基于 BootStrap 4.0、JQuery 3，后端基于 PHP/7 MySQL XCache/Yac/Redis/Memcached...
 
 自适应手机、平板、PC，有着非常方便的插件机制，不仅仅是一个轻论坛，还是一个良好的二次开发平台。
@@ -29,6 +26,7 @@ Xiuno BBS 4.0 是一款轻论坛产品，前端基于 BootStrap 4.0、JQuery 3�
 git： https://git.oschina.net/xiuno/xiunobbs.git
 
 ### 【Xiuno BBS 4.0 带来了什么？】
+
 前端采用 BootStrap 4 + JQuery 3，响应式布局，自适应手机，平板，PC 设备，不再需要单独开发移动版本。
 
 对 Bootstrap 4 进行了增强和兼容，比如增加 $('#submit').button('xxx').delay(3000).location('xxx.php') 的连续操作支持。
@@ -65,6 +63,7 @@ Xiuno BBS 4 正式版经历了近 2 年，7 个 beta 版本，最终定型，这
 
 
 ### 【性能方面】
+
 采用静态语言编程风格，充分发挥 PHP7 OPCache 的威力。
 
 专门针对 BBS 业务的索引优化和适度的缓存。
@@ -74,15 +73,8 @@ Xiuno BBS 4 正式版经历了近 2 年，7 个 beta 版本，最终定型，这
 作者十多年从业经验带领您绕过雷区。
 
 ### 【授权】
+
 Xiuno BBS 4.0 采用 MIT 协议发布，您可以自由修改、派生版本、商用而不用担心任何法律风险（修改后应保留原来的版权信息）。
 
 我们承诺对主程序永远免费，在没有盈利前接受正派人士的捐赠。
 
-### 【站长交流群】
-474834730
-
-### 【开发者群】
-2759536
-
-axiuno@gmail.com
-2018/1/17
